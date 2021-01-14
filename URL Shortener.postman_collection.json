@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "892c606b-8118-44d9-95b7-7c2da276c67c",
+		"name": "URL Shortener",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "url-shortener-br.herokuapp.com/G9SgWzCAw2",
+					"host": [
+						"url-shortener-br",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"G9SgWzCAw2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://www.limpy.com.br\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://url-shortener-br.herokuapp.com",
+					"protocol": "https",
+					"host": [
+						"url-shortener-br",
+						"herokuapp",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
